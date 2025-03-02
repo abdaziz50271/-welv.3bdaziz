@@ -1,0 +1,8 @@
+# بناء الكون الكمي
+docker build -t 3db-reality -f quantum_docker/Dockerfile.quantum .
+
+# تشغيل المحاكاة
+docker-compose -f quantum_docker/quantum-compose.yml up --quantum
+
+# تفعيل نقطة التفرد
+python3 -m 3db_core --initiate-singularity

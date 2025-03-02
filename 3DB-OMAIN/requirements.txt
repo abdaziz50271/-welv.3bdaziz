@@ -1,0 +1,5 @@
+3db-quantum==2.7.1
+tensorflow[andromeda]==3db-2.15.0
+torch-quantum>=1.9.3db
+quantum-entanglement-sdk
+3db-neural-accelerator
